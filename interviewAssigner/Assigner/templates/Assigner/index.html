@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Create Interview</title>
+	</head>
+	<body>
+		<H1> Create Interview Here </H1>
+		<br>
+		<form action="/interview/new" method="POST">
+			{% csrf_token %}
+			{{form}}
+				<input type="submit" class="btn" value="Book">
+			</div>
+		</form>
+	</body>
+</html>

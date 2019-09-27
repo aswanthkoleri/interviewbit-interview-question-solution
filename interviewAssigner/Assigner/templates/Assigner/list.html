@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Interviews</title>
+</head>
+<body>
+	<ul>
+{% for item in interviews %}
+<li>Title : {{item.title}},Date : {{item.dateTime}}, Interviewee : {{item.interviewee}}, Interviewer : {{item.interviewer}} </li>
+{% endfor %}
+</ul>
+	<ul>
+{% for i in DateMap%}
+<li>i </li>
+{% endfor %}
+</ul>
+
+</body>
+</html>
